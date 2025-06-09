@@ -1,0 +1,59 @@
+
+======================================
+Starting the user migration process...
+======================================
+
+2024-09-10 15:30:58 : The context QSEoW has been validated.
+2024-09-10 15:30:58 : The context tenant.us_oauth has been validated.
+2024-09-10 15:30:58 : Starting process to verify/create on-prem app object owners as cloud users.
+2024-09-10 15:30:59 : Obtaining relevant attributes for every cloud user...
+2024-09-10 15:31:01 : Total unique user email addresses in cloud: 1564
+2024-09-10 15:31:01 : context set...
+2024-09-10 15:31:01 : Obtaining list of object owners in on-prem appId: 9e5-a01a-5ff4-8bc9-b2c28390ef5f
+2024-09-10 15:31:03 : 5 distinct object owners obtained for apps.
+Now retrieving their email addresses and active status...
+
+2024-09-10 15:31:06 : Found 12 distinct object owners across the on-prem apps.
+
+-------------------------------
+List of distinct object owners:
+-------------------------------
+
+2024-09-10 15:31:06 : Status: Active, Email: user1@example.com, Subject: DOMAIN\\user1
+2024-09-10 15:31:06 : Status: Active, Email: user2@example.com, Subject: DOMAIN\\user2
+2024-09-10 15:31:06 : Status: Active, Email: user3@example.com, Subject: DOMAIN\\user3
+2024-09-10 15:31:06 : Status: Active, Email: user4@example.com, Subject: DOMAIN\\user4
+2024-09-10 15:31:06 : Status: Active, Email: user5@example.com, Subject: DOMAIN\\user5
+2024-09-10 15:31:12 : USER PROMPT: Would you like to review the list?
+(Y)es - review object owners
+(N)o - proceed with verification/creation of Cloud users
+Y or N
+2024-09-10 15:31:12 : USER RESPONSE: y
+
+2024-09-10 15:31:31 : USER PROMPT: Do you want to continue?
+(Y)es to proceed with verification of these object owners as cloud users
+(N)o to abort
+Y or N
+2024-09-10 15:31:31 : USER RESPONSE: y
+2024-09-10 15:31:31 : Continuing process...
+
+--------------------------------------------------------------------------
+Verifying the existence of 5 on-prem object owners as Qlik Cloud users...
+--------------------------------------------------------------------------
+
+2024-09-10 15:31:31 : User user1@example.com already exists in the cloud.
+2024-09-10 15:31:31 : User user2@example.com already exists in the cloud.
+2024-09-10 15:31:31 : User user3@example.com already exists in the cloud.
+2024-09-10 15:31:31 : User user4@example.com already exists in the cloud.
+2024-09-10 15:31:31 : User user5@example.com already exists in the cloud.
+
+
++++++++++++++++++++++++
+No new users to create.
++++++++++++++++++++++++
+
+
+=======================================================================
+Process to verify/create app object owners as cloud users has finished.
+=======================================================================
+

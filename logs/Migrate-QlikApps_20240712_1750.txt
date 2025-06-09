@@ -1,0 +1,161 @@
+
+=====================================
+Starting the app migration process...
+=====================================
+
+2024-07-12 17:50:55 : The context QSEoW has been validated.
+2024-07-12 17:50:55 : The context tenant.us_oauth has been validated.
+2024-07-12 17:50:57 : Obtaining relevant attributes for every cloud user...
+
+============================================================================================================================================
+Migrating AppId: bee3acd3-8552-431c-be57-0841aca2417e        App Name: Inventory App        Target Space: Inventory Apps (TST)
+============================================================================================================================================
+
+2024-07-12 17:50:59 : On-Prem App Owner: Doe, John (userid123)
+2024-07-12 17:50:59 : On-Prem Owner Subject: DOMAIN\userid123
+2024-07-12 17:50:59 : App ownership will be assigned to the same user as in on-prem (an owner override was not specified for this app in the input file).
+2024-07-12 17:50:59 : Target Owner's UserId in Cloud: 63ba91bf0822748cdc47dc64
+2024-07-12 17:51:09 : Target AppId bee3acd3-8552-431c-be57-0841aca2417e: Responded successfully
+2024-07-12 17:51:09 : Exporting the app to local storage...
+2024-07-12 17:51:16 : Retrieving details of approved app objects from the on-prem repository...
+
+--------------------------------------------------------------------------------------
+Processing attributes of all app objects to determine ownership and necessary actions.
+--------------------------------------------------------------------------------------
+
+2024-07-12 17:51:21 : OBJECTID: ab6e15c7-071e-4905-951a-a4505b32cf66 OBJECTNAME: Overview - Inventory
+2024-07-12 17:51:23 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:23 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:23 : OBJECTID: 805640b4-af1d-4dc8-993f-71855972c7b3 OBJECTNAME: Total Value
+2024-07-12 17:51:24 : >>> TYPE:snapshot PUBLISHED:True APPROVED:True
+2024-07-12 17:51:24 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:24 : OBJECTID: 06091816-a01f-44db-8daa-2a5aa61c1eaf OBJECTNAME: 
+2024-07-12 17:51:25 : >>> TYPE:snapshot PUBLISHED:True APPROVED:True
+2024-07-12 17:51:25 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:25 : OBJECTID: 4b27c614-a120-434b-85a8-0b20bd68cc10 OBJECTNAME: Comparsion
+2024-07-12 17:51:25 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:25 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:25 : OBJECTID: 6581a3da-a3fc-49dc-a014-7f425b43cbc8 OBJECTNAME: Unit Cost
+2024-07-12 17:51:26 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:26 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:26 : OBJECTID: 73b0d0a3-fe92-4763-9416-494b919355ec OBJECTNAME: Product
+2024-07-12 17:51:27 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:27 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:27 : OBJECTID: 74808474-ae2e-4a50-8387-cc78aa841c5a OBJECTNAME: Watchlist
+2024-07-12 17:51:28 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:28 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:28 : OBJECTID: 76a76eeb-eb1a-4ff8-9fc4-04dc85d0b342 OBJECTNAME: Updates
+2024-07-12 17:51:28 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:28 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:28 : OBJECTID: 91898745-b38d-4730-bf68-b248f6633da4 OBJECTNAME: Inventory Dashboard
+2024-07-12 17:51:29 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:29 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:29 : OBJECTID: a5d66f32-afe9-4134-8b68-dc42c086f925 OBJECTNAME: Scorecard
+2024-07-12 17:51:30 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:30 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:30 : OBJECTID: bb743f52-7d93-432a-8208-e1df3654800d OBJECTNAME: Code Analysis
+2024-07-12 17:51:32 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:32 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:32 : OBJECTID: cb3c3fea-6aba-4958-a60c-b3a5b18d813e OBJECTNAME: 
+2024-07-12 17:51:33 : >>> TYPE:snapshot PUBLISHED:True APPROVED:True
+2024-07-12 17:51:33 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:33 : OBJECTID: cdefa5ea-9211-47c5-8688-d5dfd2dabc7f OBJECTNAME: Reason Codes
+2024-07-12 17:51:33 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:33 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:33 : OBJECTID: de738130-98d4-460b-a765-25e163a5792b OBJECTNAME: Analysis
+2024-07-12 17:51:34 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:34 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:34 : OBJECTID: e1e8764a-8f4a-4f8b-a768-a64f51d63570 OBJECTNAME: Fields
+2024-07-12 17:51:35 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:35 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:35 : OBJECTID: e3b25981-3e7f-4d0b-b814-9c8fd62cc2fa OBJECTNAME: Comparison
+2024-07-12 17:51:36 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:36 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:36 : OBJECTID: f052e4b0-121a-4e08-bcf5-3515a9365861 OBJECTNAME: Opu test
+2024-07-12 17:51:37 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:37 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:37 : OBJECTID: 0405105b-4f71-4330-bc05-7528531e2fc9 OBJECTNAME: Custom Report
+2024-07-12 17:51:38 : >>> TYPE:bookmark PUBLISHED:True APPROVED:True
+2024-07-12 17:51:38 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:38 : OBJECTID: a27f272e-3888-400c-b8b1-43d672b3fe3e OBJECTNAME: Lines
+2024-07-12 17:51:39 : >>> TYPE:snapshot PUBLISHED:True APPROVED:True
+2024-07-12 17:51:39 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:39 : OBJECTID: 062ddc03-bfff-453f-8ba0-89cf5b015021 OBJECTNAME: Review
+2024-07-12 17:51:39 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:39 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:39 : OBJECTID: 2a2af139-7766-4557-a955-f8eeeddfc3aa OBJECTNAME: Inter-Month-Comparison
+2024-07-12 17:51:40 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:40 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:40 : OBJECTID: 051d7764-609e-48a6-8baa-f7430c527758 OBJECTNAME: Expirations
+2024-07-12 17:51:41 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:41 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:41 : OBJECTID: 825eacfb-fd25-4136-80e6-519ee6163bd9 OBJECTNAME: Date v2
+2024-07-12 17:51:42 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:42 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:42 : OBJECTID: 7e7c1820-72ce-4b66-88d6-e9511114ea68 OBJECTNAME: Review - Ad-Hoc
+2024-07-12 17:51:42 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:42 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:42 : OBJECTID: 9c8ce6da-3764-4c81-9a89-0914236b5e55 OBJECTNAME: Reference
+2024-07-12 17:51:43 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:43 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+2024-07-12 17:51:43 : OBJECTID: 8b65d143-1068-42f9-831a-8d14c5237153 OBJECTNAME: Data Sheet
+2024-07-12 17:51:44 : >>> TYPE:sheet PUBLISHED:True APPROVED:True
+2024-07-12 17:51:44 : ___ ON-PREM OWNER:DOMAIN\userid123 CORRESPONDING CLOUD USER:63ba91bf0822748cdc47dc64
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Found 26 app objects that will require processing.
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2024-07-12 17:51:44 : The publishMode configuration is set to: update
+2024-07-12 17:51:44 : Duplicating the app to serve as the source app for the published app.
+2024-07-12 17:51:50 : Moving the source app to the supporting shared space named 'Inventory Apps (DEV)'.
+2024-07-12 17:51:50 : Once the migration is completed, you may review the source app and move it to another shared space if needed.
+2024-07-12 17:51:50 : WARNING: Skipping step to transfer private content to the target app, because the exportScope was not set to 'all'.
+2024-07-12 17:51:50 : Removing the temporary source app that would have been used to transfer private content to target app.
+
+2024-07-12 17:51:51 : Moving the target app to the target managed space.
+
+2024-07-12 17:51:52 : Moving the source app to the shared space.
+2024-07-12 17:51:53 : Publishing the source app to the target app, to establish the publish association.
+2024-07-12 17:51:58 : Assigning ownership on the target app.
+
+===================================================================================
+Done: the app 'Inventory App' is now migrated to Inventory Apps (TST)
+===================================================================================
+
+
+2024-07-12 17:52:07 : Published app: https://tenant.us.qlikcloud.com/sense/app/cee1acd3-8552-431c-be57-0841aca2417e
+2024-07-12 17:52:07 : Shared App: https://tenant.us.qlikcloud.com/sense/app/af68a16d-5e96-45c3-b22f-588e5a03c3d4
+2024-07-12 17:52:07 : Shared Space: https://tenant.us.qlikcloud.com/catalog?space_filter=726fbca8eee7c55f0e8d6e6c
+
+
+********************************
+App migration process concluded.
+********************************
+

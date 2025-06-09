@@ -1,0 +1,4 @@
+﻿AppID,CloudAppID,DevCopyID,MigrationType,ExportScope,LogFile
+e454d0c3-4889-411c-a588-ffa426f113c7,d0fc7b15-362d-45f7-b8c2-ee97ba010517,fc4b5ca7-d4a4-4abe-8683-07483564e5db,managed-create,all,Migrate-QlikApps_20240911_2059.txt
+ac567f5d-bdb3-448d-bbf6-04601931a7e5,ac567f5d-bdb3-448d-bbf6-04601931a7e5,12a80433-45db-4d0f-9e7f-70973108e6ba,managed-update,approved,Migrate-QlikApps_20240912_1741.txt
+ac567f5d-bdb3-448d-bbf6-04601931a7e5,a4766e5d-bdb3-448d-bbf6-04601931a7e5,,shared,all,Migrate-QlikApps_20240912_1741.txt

@@ -1,0 +1,5 @@
+﻿Name,GroupId,Timestamp,Error
+"Test-Group1","","2024-07-03 20:31","Failed to remove group Test-Group1."
+"Test-Group2","","2024-07-03 20:31","Failed to remove group Test-Group2."
+"Test-Group1","6685b34bdc1547b770ae65f3","2024-07-03 20:39",""
+"Test-Group2","6685b34bf048824087f53081","2024-07-03 20:39",""
