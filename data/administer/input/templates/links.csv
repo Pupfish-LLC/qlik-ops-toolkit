@@ -1,0 +1,2 @@
+StreamName,AppName,URL,Description
+App Operations Monitor,App Operations Monitor,https://example.qs.domain.com/hub/stream/1111111-1111-1111-1111-11111111,Link to the stream in the client-managed environment. Active while the stream is awaiting migration to Qlik Cloud.

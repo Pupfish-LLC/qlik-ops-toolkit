@@ -1,0 +1,4 @@
+﻿SpaceName, group, roles
+Everyone,All-Users,consumer
+Everyone,Group1,contributor
+Everyone (TST),Group2,"contributor,manager"

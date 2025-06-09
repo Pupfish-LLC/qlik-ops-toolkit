@@ -1,0 +1,159 @@
+
+==========================================
+Starting the load script update process...
+==========================================
+
+2024-08-09 21:59:51 : The context onetakeda.us_oauth has been validated.
+2024-08-09 21:59:52 : Using provided app IDs: 12a8d53c-50d5-4fac-870a-7913a140923f,13a8d53c-50d5-4eac-860a-7813a140923f
+2024-08-09 21:59:52 : Retrieving the load script for appID 12a8d53c-50d5-4fac-870a-7913a140923f
+
+
+----------------------------------------------------------------------------------------------
+Performing Find and Replace on the load script of appId '12a8d53c-50d5-4fac-870a-7913a140923f'
+----------------------------------------------------------------------------------------------
+
+2024-08-09 21:59:53 : Performing find & replace operations as defined in the config file.
+
+2024-08-09 21:59:53 : Processing pattern: "LIB CONNECT TO '([^':]*?)';" to "LIB CONNECT TO ':$1';" 
+2024-08-09 21:59:53 : Description: Add Space-aware syntax to all LIB CONNECT TO statements with a standard syntax
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+
+2024-08-09 21:59:53 : Processing pattern: "(lib://)([^:/\]]+)(?=[/\]])" to "$1:$2" 
+2024-08-09 21:59:53 : Description: Add Space-aware syntax to all lib:// statements
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+2024-08-09 21:59:53 : Replaced occurrence 1:  FROM [lib://Inventory - NPRINTING Output/Qlik Usage data US - Inventory.xlsx] 
+
+2024-08-09 21:59:53 : Processing pattern: "\$\(must_include\s?=" to "" 
+2024-08-09 21:59:53 : Description: Flag all must_include statements
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:53 : Processing pattern: "\$\(include\s?=" to "" 
+2024-08-09 21:59:53 : Description: Flag all include statements
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:53 : Processing pattern: "binary[^;]*\.qvf[^;]*;" to "" 
+2024-08-09 21:59:53 : Description: Flag all binary loads
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:53 : Processing pattern: "lib://[\[(]*\$" to "" 
+2024-08-09 21:59:53 : Description: Flag all lib:// statements that are loaded from a variable
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:53 : Processing pattern: "lib:\/\/.*?[\\].*?[;.]" to "$&" 
+2024-08-09 21:59:53 : Description: Find all lib:// statements that contain backslashes, replacing with foward slashes
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+
+2024-08-09 21:59:53 : Processing pattern: "lib://[^.;\]]*\*[^.;\]]*[.;]" to "" 
+2024-08-09 21:59:53 : Description: Flag all wildcard loads defined in the lib: statement
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:53 : Processing pattern: "filelist\([^)]*\*[^)]*\)" to "" 
+2024-08-09 21:59:53 : Description: Flag all wildcard loads defined in a filelist() statement
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:53 : Processing pattern: "(lib://:?(Inventory - Repository Folder|Another Data Connection Name|Yet Another Connection))/" to "$1/share/" 
+2024-08-09 21:59:53 : Description: Insert 'share' root folder after specific data connection names in lib: statements
+2024-08-09 21:59:53 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Total number of replacements made for appId' 12a8d53c-50d5-4fac-870a-7913a140923f': 1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2024-08-09 21:59:53 : Updated script saved to file, but not comitted to app. Include the -commit parameter to post these changes as new script versions
+
+---------------------------------------------------------------------------
+Script update for appId '12a8d53c-50d5-4fac-870a-7913a140923f' is complete.
+---------------------------------------------------------------------------
+
+2024-08-09 21:59:53 : Retrieving the load script for appID 13a8d53c-50d5-4eac-860a-7813a140923f
+
+
+----------------------------------------------------------------------------------------------
+Performing Find and Replace on the load script of appId '13a8d53c-50d5-4eac-860a-7813a140923f'
+----------------------------------------------------------------------------------------------
+
+2024-08-09 21:59:55 : Performing find & replace operations as defined in the config file.
+
+2024-08-09 21:59:55 : Processing pattern: "LIB CONNECT TO '([^':]*?)';" to "LIB CONNECT TO ':$1';" 
+2024-08-09 21:59:55 : Description: Add Space-aware syntax to all LIB CONNECT TO statements with a standard syntax
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+
+2024-08-09 21:59:55 : Processing pattern: "(lib://)([^:/\]]+)(?=[/\]])" to "$1:$2" 
+2024-08-09 21:59:55 : Description: Add Space-aware syntax to all lib:// statements
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+2024-08-09 21:59:55 : Replaced occurrence 1: FROM [lib://Inventory - Repository Folder/QVD/snapshot.qvd]  
+2024-08-09 21:59:55 : Replaced occurrence 2: FROM [lib://Inventory - Repository Folder/QVD/KPI_Reporting/GlobalData.qvd] 
+2024-08-09 21:59:55 : Replaced occurrence 3: FROM [lib://Inventory - Repository Folder/QVD/KPI_Reporting/GlobalData.qvd] 
+
+2024-08-09 21:59:55 : Processing pattern: "\$\(must_include\s?=" to "" 
+2024-08-09 21:59:55 : Description: Flag all must_include statements
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:55 : Processing pattern: "\$\(include\s?=" to "" 
+2024-08-09 21:59:55 : Description: Flag all include statements
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:55 : Processing pattern: "binary[^;]*\.qvf[^;]*;" to "" 
+2024-08-09 21:59:55 : Description: Flag all binary loads
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:55 : Processing pattern: "lib://[\[(]*\$" to "" 
+2024-08-09 21:59:55 : Description: Flag all lib:// statements that are loaded from a variable
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:55 : Processing pattern: "lib:\/\/.*?[\\].*?[;.]" to "$&" 
+2024-08-09 21:59:55 : Description: Find all lib:// statements that contain backslashes, replacing with foward slashes
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+
+2024-08-09 21:59:55 : Processing pattern: "lib://[^.;\]]*\*[^.;\]]*[.;]" to "" 
+2024-08-09 21:59:55 : Description: Flag all wildcard loads defined in the lib: statement
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:55 : Processing pattern: "filelist\([^)]*\*[^)]*\)" to "" 
+2024-08-09 21:59:55 : Description: Flag all wildcard loads defined in a filelist() statement
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: True
+
+
+2024-08-09 21:59:55 : Processing pattern: "(lib://:?(Inventory - Repository Folder|Another Data Connection Name|Yet Another Connection))/" to "$1/share/" 
+2024-08-09 21:59:55 : Description: Insert 'share' root folder after specific data connection names in lib: statements
+2024-08-09 21:59:55 : CaseSensitive: False | Regex: True | FlagOnly: False
+
+2024-08-09 21:59:55 : Replaced occurrence 1: FROM [lib://:Inventory - Repository Folder/QVD/snapshot.qvd]  
+2024-08-09 21:59:55 : Replaced occurrence 2: FROM [lib://:Inventory - Repository Folder/QVD/KPI_Reporting/GlobalData.qvd] 
+2024-08-09 21:59:55 : Replaced occurrence 3: FROM [lib://:Inventory - Repository Folder/QVD/KPI_Reporting/GlobalData.qvd] 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Total number of replacements made for appId' 13a8d53c-50d5-4eac-860a-7813a140923f': 6
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2024-08-09 21:59:55 : Updated script saved to file, but not comitted to app. Include the -commit parameter to post these changes as new script versions
+
+---------------------------------------------------------------------------
+Script update for appId '13a8d53c-50d5-4eac-860a-7813a140923f' is complete.
+---------------------------------------------------------------------------
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The load script update process has completed. (the -commit parameter was not applied to this process).
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2024-08-09 21:59:55 : The changes have been written to the D:\Tools\qlik-cli\Qlik-Ops-Toolkit v1.1.0\data\administer\export\scripts\Update-QlikAppScripts_20240809_2159 directory but have not been committed.
+Include the -commit parameter to post updated scripts as new script versions.

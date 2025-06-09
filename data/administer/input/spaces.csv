@@ -1,0 +1,6 @@
+Name,Type,Owner,Description
+Space1,managed,,This is a managed space containing published applications. Users with appropriate permissions can create self-service content on top of the governed data models..
+Space1 (TST),managed,,This is a managed space where application testers validate that applications are ready for production.
+Space1 (DEV),shared,,This is a shared space used by the development team to collaboratively develop apps. Master copies of production apps are maintained in this space. To create a new version of an app, the master copy should be duplicated rather than overwritten.
+Space1 (STAGE),shared,,"Master copies of production apps are maintained in this space. To create a new version of an app, the master copy should be duplicated rather than overwritten."
+Space1 (ETL),managed,,"This is a managed space containing published ETL applications. The apps published to this space should be restricted to production ETL apps that do not provide a front-end interface to end users."

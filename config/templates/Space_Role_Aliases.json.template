@@ -1,0 +1,13 @@
+{
+  "Has restricted view": "basicconsumer",
+  "Can view": "consumer",
+  "Can contribute": "contributor",
+  "Can consume data": "dataconsumer",
+  "Can consume": "dataconsumer",
+  "Can manage": "facilitator",
+  "Can publish": "publisher",
+  "Can edit": "producer",
+  "Can edit data in apps": "codeveloper",
+  "Can Operate": "operator"
+}
+  
