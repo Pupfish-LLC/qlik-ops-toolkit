@@ -11,3 +11,9 @@ $QlikWindowsContext = "QSEoW"
 
 # If using self signed cert, leave as is, else set $SS = ""
 $SS = "--insecure"
+
+# Set the path where backups will be stored
+$BackupPath = "C:\QlikBackups"
+
+# Set the backup retention period in days
+$BackupRetentionDays = 30
