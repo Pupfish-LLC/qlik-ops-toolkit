@@ -3,7 +3,7 @@
 Starting the load script update process...
 ==========================================
 
-2024-08-09 21:59:51 : The context onetakeda.us_oauth has been validated.
+2024-08-09 21:59:51 : The context mytenant.us_oauth has been validated.
 2024-08-09 21:59:52 : Using provided app IDs: 12a8d53c-50d5-4fac-870a-7913a140923f,13a8d53c-50d5-4eac-860a-7813a140923f
 2024-08-09 21:59:52 : Retrieving the load script for appID 12a8d53c-50d5-4fac-870a-7913a140923f
 
