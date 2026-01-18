@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Qlik Ops Toolkit!
 
 Follow these steps to ensure that your contributions are properly attributed:
 
-1. Add details of your contribution to the [CHANGELOG](./CHANGELOG.MD) file in the project root with details of your contributions, including files updated/added.
+1. Add details of your contribution to the [CHANGELOG](./CHANGELOG.md) file in the project root with details of your contributions, including files updated/added.
    
    Example:
    ```markdown
@@ -27,7 +27,7 @@ Follow these steps to ensure that your contributions are properly attributed:
       - Details about new file
 
    ```
-2. Update the [README](./README.MD) file in the project root with a brief but descriptive note to reflect significant contributions.
+2. Update the [README](./README.md) file in the project root with a brief but descriptive note to reflect significant contributions.
    
    Example:
    ```markdown

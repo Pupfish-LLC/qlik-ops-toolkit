@@ -6,12 +6,12 @@ logs/*
 # But do not ignore the templates subdirectories within those directories
 !config/templates/
 !data/templates/
-!log/templates/
+!logs/templates/
 
 # Ensure the content within the templates subdirectories is not ignored
 !config/templates/**
 !data/templates/**
-!log/templates/**
+!logs/templates/**
 
 # Ignore other unnecessary files
 archive/
